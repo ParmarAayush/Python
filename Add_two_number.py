@@ -1,0 +1,5 @@
+print("enter Number one")
+var1 = input()
+print("Enter Number Two")
+var2 = input()
+print("The Addition is" , int(var1) + int(var2))
