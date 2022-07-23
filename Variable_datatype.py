@@ -16,7 +16,7 @@ print(5 * str(int(var6) + int(var7)))
 print("Here inputAge is Variabel")
 print("Enter your age")
 inputAge = input()
-print("Your Age is", inputAge) # there is not rwuired extra space after cnetence , is provide space
+print("Your Age is", inputAge) # it is not provide extra space after cnetence , is provide space
 # print("Your Age is", inputAge + 10) it will give error bcz get input as a striing, now solution is convert input var into int 
-print("Your Age is", int(inputAge) + 10) # there is not rwuired extra space after cnetence , is provide space
+print("Your Age is", int(inputAge) + 10) # it is not Provide extra space after cnetence , is provide space
  
