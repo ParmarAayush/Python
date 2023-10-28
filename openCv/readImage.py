@@ -2,7 +2,7 @@ import cv2 as cv
 import sys
 
 # if you want to add path manually which use further
-sys.path.append("/media/HDD1/Courses/openCv/opencv/samples/data")
+sys.path.append("/media/HDD1/Courses/Python/openCv/opencv/samples/data")
 print(sys.path)
 pathimg = sys.path
 
@@ -18,8 +18,8 @@ if img is None:
     print(img)
     sys.exit("Could Not Found Image.")
 
-cv.imshow("Display Window", img)
-k = cv.waitKey(0)
+cv.imshow("Display Window", img) # show and close window use waitKey
+k = cv.waitKey(0) # close window when press key 
 
 # write file 
 if k == ord("s"):

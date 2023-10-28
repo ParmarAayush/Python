@@ -1,0 +1,26 @@
+{
+    "installation" :{
+        "cmkae and gcc" : "i think it is provide gui support",
+        "load image" : "loade image in window and write image",
+        "capture video" : "if co-ordinates height and width not match then "
+    },
+    "op: video" :{
+        "VideoCapture(0)" : "0 is fore inbuilt camera use 1,2.. another camera device",
+        "cv.CAP_PROP_FRAME_WIDTH" : "use for know frame WIDTH same as for HEIGHT",
+        "FRAME HEIGHT and WIDTH"  : "without right FRAME properties vide recored but not show"
+    },
+    "trackBar" : {
+        "colorPicker" : "input RGB value and give colore output",
+        "take color input from window" : "helpfull further object detection"
+    },
+    
+    "op: image":{
+        "imread": "read image from local device",
+        "imshow": "show read image in window",
+        "drawShape" : "draw shapes on image",
+        "cap.set(3, height) & cap.set(4, width)" : "set frame height and width",
+        "putText": "mathod put text on image ex Date and Time",
+        "Region of Intrest (ROI)" : "copy football from one place to another",
+        "Bitwise Operator" : "remaing not understand tutorial 12"
+    }
+}
