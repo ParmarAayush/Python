@@ -1,0 +1,7 @@
+{
+    "load and display image" : "important to waitKey() method after show image",
+    "convert into gray scale image" : "using cvtColor(image,COLOR_BGR2GRAY)",
+    "face detaction" : "using pre-trained face detection classifier",
+    "thresholding" : "detect object easyly"
+
+}
