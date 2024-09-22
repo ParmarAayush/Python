@@ -1,0 +1,10 @@
+virtual environment is as simple as node_module
+
+how to create virtual environment
+    dir/you/want/to/use> python3 -m venv {myenv}
+
+Activate
+    source {myenv}/bin/activate
+
+deactivate venv
+    deactivate
