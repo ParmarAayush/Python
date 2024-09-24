@@ -1,0 +1,18 @@
+Linear Algebra: it refers to equations or systems where the variables are raised to the power of 1 (e.g., 2x + 3y = 5). These equations create straight lines when plotted on a graph.
+
+Vectore : 1D Array
+Matrices : 2D Array
+
+OD Array or Scaler : are the element in array
+
+Mean ?
+Median ?
+--------------------------------------------------------------------------------------------------------------------
+Pandas is extended version of numpy where number colum are labled with  
+labels rather then simple integer
+
+[ Fundamental Structure ]
+
+        - Series => labaeld column
+        - DataFrame
+        - Index

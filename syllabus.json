@@ -1,0 +1,58 @@
+{
+  "Language": {
+    "variable and data type": "basic and print line",
+    "add_two_number": "user input, typecast",
+    "Comment_escape_sequence_character": "how to print special character or syntax",
+    "string_slicing": "slice part of string",
+    "string_formatting": "string format methods and number roundoff in string",
+    "functions and arguments": "basics of function and type: default and keyword and variable length and required",
+    "list": "basics of list and tricky uses",
+    "list_method": "insert and append and copy method",
+    "tuple": "basics of tuple immutable",
+    "sets": "unordered but support diff datatype and duplicate are not allowed, unchanged",
+    "set_methods": "pop remove discard and set operations",
+    "Dictionaries": "store value in key value formate",
+    "exception handaling": "try and execept block with multiple calss",
+    "finally keyword": "it use after except and execute always no matter if error occure no occure even if after return statemetn",
+    "enumarate function": "just like index variable in c and c++ without enumarte define index and each time you want to incremetn",
+    "virtual environment": "just like node_module",
+    "import": "import object from world wild or from local computer",
+    "if __name__ == __main__ ": "run when execute from current file not from import",
+    "scope of variable": "use global keyword to use global variable inside function",
+    "lambda expression": "anonymous function or single line function",
+    "map filter and reduce": "map is use for execute function for each element of iterable",
+    "map filter and reduce_": "filter is take function and iterale where function is your filter dunc",
+    "map filter and reduce__": "import and use reduce",
+    "is vs ==": ""
+  },
+  "OOP": {
+    "Introduction": "how it helpfull using gmae dev example",
+    "class and object": "using calss keyword declare object self keyword ",
+    "Constructor": "__init__ special method which is helpfull to make a constructor",
+    "Decoraters": "view but ? skip",
+    "Getters and setter": "?",
+    "Inheritance": ""
+  },
+  "Library": {
+    "numpy": {
+      "Structure of Array": "how diffrent types of array represent in numpy",
+      "save array in diff file": "save array in .npy file and text file",
+      "arange method": "use create 1D array",
+      "reshape method": "create array using arange and reshape",
+      "indexing array": "how access elements in diff array",
+      "slicing": "how to get particular part of array",
+      "bordcasting": "perform operation on array",
+      "structured array": "how data store in array",
+      "statical function": ""
+    },
+    "Pandas": {
+      "series": "index,data and label",
+      "createDataFrame": "series + series",
+      "reindexing": "change index value and auto fill data with NaN",
+      "sort": "sort dataframe by index, values, columns",
+      "Working With Text": "lower and upper function",
+      "Statistical Function": "all function",
+      "indexing": "get part of data [row col]"
+    }
+  }
+}

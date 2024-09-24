@@ -1,0 +1,77 @@
+[ Structure To Create Diff Arrays  ]
+
+    1D Array [elements]
+    2D Array [[Row Element], [Row Elements]]
+    3D Array [[[Row Element],[Row Elements], [[Row Elements][Row Elements]]]]
+    3D Array [[2D Array],[2D Array]]
+
+
+[ Save Diff Array in Diff File Formate ]
+
+        Types of array                  arrayName.dtype
+
+        savefile in .npy                np.save("filename", arrayName)
+        load array from .npy file       np.load("filename.npy")
+
+        savefile in txt                 np.savetxt("filtename.txt", arrayName)
+        load aeeay from .txt file       np.loadtxt("filename.txt")
+
+
+[ Diff Methods of numpy]
+
+[1] np.reshape(arr,(shape)) - Create nD Array
+        - Array to be reshaped.
+        - (3,3,2) or (3,2) or (1)
+
+[2] np.arange(start,stop,step) - Create 1D Array
+[3] np.random.rand(col,row) - Create 2D Array
+
+----------------------------------------------------------------------------------------------------
+
+[Diff Methods of pandas]
+
+[1]  pd.Series(list)                                    - creating series 
+[2]  pd.read_csv("filename.csv")                        - important to from where program is run
+[3]  pd.DataFrame(data,index)                           - create dataframe 
+
+[4]  unsorted_df.sort_index(ascending=False)            - sort index
+[5]  unsorted_df.sort_index(axis=1)
+[6]  unsorted_df.sort_values(by='col1')
+
+[7] series.str.lower()|.upper()   
+       
+[8]  df.sum()                                           - Give Sum of columns
+[9]  df.count()                                         - count non empty values in column
+[10] df.max() | df.min()                                - Maximum of Values in each column 
+[11] df.median()                                        - Median of Marks in each column 
+
+[12] pd.read_csv("filename.csv, index_col="colName")    - 
+[13] data.loc[rowValue]                                 - give row data
+[14] data.iloc[RowNumb]                                 - get by row number
+
+----------------------------------------------------------------------------------------------------
+
+[15] plt.plot(x,y)
+[16] plt.xlabel("label") | plt.ylabel("label") 
+[17] plt.title("My First Graph")
+[18] plt.show()
+[19] plt.figure(figsize=(10,8))
+[20] plt.plot(x,y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

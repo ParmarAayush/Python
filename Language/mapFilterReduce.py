@@ -20,7 +20,8 @@ def filterFunction(x):
 filterList = list(filter(filterFunction, l))
 print(f"filter output => {filterList}")
 
-#Reduce 
+
+#Reduce : operate on two 
 
 from functools import reduce
 
